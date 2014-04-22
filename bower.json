@@ -1,0 +1,19 @@
+{
+  "name": "$$FILENAME$$",
+  "version": "0.0.0",
+  "description": "$$DESCRIPTION$$",
+  "main": "browser.js",
+  "author": {
+    "name": "Ragnar Þór Valgeirsson (rthor)",
+    "email": "ragnar.valgeirsson@gmail.com",
+    "url": "http://rthor.is"
+  },
+  "homepage": "https://github.com/rthor/$$FILENAME$$",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "tests"
+  ]
+}
