@@ -1,0 +1,33 @@
+{
+  "name": "$$FILENAME$$",
+  "version": "0.0.0",
+  "description": "$$DESCRIPTION$$",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec tests/",
+    "dev-test": "mocha -wR spec tests/",
+    "browser": "browserify -s $npm_package_name -o browser.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rthor/$$FILENAME$$.git"
+  },
+  "author": {
+    "name": "Ragnar Þór Valgeirsson (rthor)",
+    "email": "ragnar.valgeirsson@gmail.com",
+    "url": "http://rthor.is"
+  },
+  "bugs": {
+    "url": "https://github.com/rthor/$$FILENAME$$/issues"
+  },
+  "homepage": "https://github.com/rthor/$$FILENAME$$",
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^3.0.0",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "mocha-jshint": "0.0.7"
+  },
+  "dependencies": {}
+}
